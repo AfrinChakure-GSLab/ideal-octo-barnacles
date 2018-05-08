@@ -1,0 +1,134 @@
+{
+	"id": "f5e9e94e-14e9-fade-2a86-6aab655ec716",
+	"name": "nodejs",
+	"description": "",
+	"order": [
+		"3f786052-144c-cb0f-da28-dd3d97ea93fe",
+		"353058cf-9e11-1caa-7586-86e9731bae11",
+		"943234c6-509a-2208-5f2b-17bc5b88825d",
+		"a5ecc926-c510-2fea-b8b2-788a9391e3e0"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1525744609083,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "353058cf-9e11-1caa-7586-86e9731bae11",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/courses/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1525746785073,
+			"name": "http://localhost:3000/api/courses copy",
+			"description": "",
+			"collectionId": "f5e9e94e-14e9-fade-2a86-6aab655ec716",
+			"responses": [],
+			"rawModeData": "{\n\"name\" : \"sddfk\"\n\n}"
+		},
+		{
+			"id": "3f786052-144c-cb0f-da28-dd3d97ea93fe",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/courses",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1525745557798,
+			"name": "http://localhost:3000/api/courses",
+			"description": "",
+			"collectionId": "f5e9e94e-14e9-fade-2a86-6aab655ec716",
+			"responses": [],
+			"rawModeData": "{\n\"name\" : \"lm\"\n}"
+		},
+		{
+			"id": "943234c6-509a-2208-5f2b-17bc5b88825d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/courses/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1525747498087,
+			"name": "http://localhost:3000/api/courses copy copy",
+			"description": "",
+			"collectionId": "f5e9e94e-14e9-fade-2a86-6aab655ec716",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "a5ecc926-c510-2fea-b8b2-788a9391e3e0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/courses",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1525746751308,
+			"name": "http://localhost:3000/api/courses copy copy",
+			"description": "",
+			"collectionId": "f5e9e94e-14e9-fade-2a86-6aab655ec716",
+			"responses": [],
+			"rawModeData": "{\n\"name\" : \"lmam\"\n}"
+		}
+	]
+}
